@@ -15,7 +15,7 @@ def Route3():
     
     ### Πορέια προς χάρτη & βούρτσα ###
     MoveSteering_Seconds(-50, 0, 300)
-	rightArm.run_time(-500,500 , then=Stop.BRAKE, wait=False)
+	rightArm.run_time(-400,400 , then=Stop.BRAKE, wait=False)
 	MoveStraight_Distance (600,400,725,True,True,Stop.BRAKE)
     
     ### Χάρτης ###
